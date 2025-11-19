@@ -31,7 +31,7 @@ make inter
 # including external library
 ```
 
-```
+```sh
 make tests-cases
 make inter
 ```
