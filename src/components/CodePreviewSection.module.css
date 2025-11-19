@@ -1,0 +1,55 @@
+/* .codePreview { */
+/*   background: linear-gradient(135deg, #ff6b6b, #7e57c2); */
+/*   padding: 4rem 0; */
+/*   color: white; */
+/*   text-align: center; */
+/* } */
+
+.previewContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 0rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.codeBlock {
+  font-family: "Fira Code", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  overflow-x: auto;
+}
+
+.codeBlock code::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-bottom: 0.5rem;
+}
+
+.codeBlock code .keyword {
+  color: #ff79c6;
+  font-weight: bold;
+}
+
+.codeBlock code .string {
+  color: #f1fa8c;
+}
+
+.codeBlock code .number {
+  color: #bd93f9;
+}
+
+.codeBlock code .comment {
+  color: #6272a4;
+  font-style: italic;
+}

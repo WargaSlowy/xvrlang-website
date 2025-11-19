@@ -1,0 +1,65 @@
+.feature {
+  padding: 0px;
+}
+.featureWrapper {
+  width: 100%; /* full-width */
+  padding: 4rem 0; /* spacing atas-bawah */
+}
+
+.featureLeft {
+  background-color: var(--ifm-background-color-everblush);
+}
+
+.featureRight {
+  background-color: var(--ifm-background-color-everblush-lighter);
+}
+
+.featureItem {
+  margin: 0;
+  padding: 4rem 1.5rem; /* default untuk layar kecil */
+}
+
+@media (min-width: 1080px) {
+  .featureItem {
+    padding: 4rem 8rem; /* hanya berlaku untuk layar ≥ 1080px */
+  }
+}
+
+.featureInner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1080px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.3rem;
+  }
+}

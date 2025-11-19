@@ -1,0 +1,47 @@
+.supportCols {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  padding: 4rem 12rem;
+  flex-wrap: wrap;
+}
+
+.supportContent {
+  flex: 1 1 400px;
+  min-width: 0;
+}
+
+.discordIframeWrap {
+  flex: 1 1 350px;
+  max-width: 450px;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  overflow: hidden;
+}
+
+.discordIframeWrap iframe {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+@media (max-width: 1080px) {
+  .supportCols {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .supportCols {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .discordIframeWrap,
+  .supportContent {
+    max-width: 100%;
+    flex: 1 1 auto;
+  }
+}
