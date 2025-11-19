@@ -7,11 +7,10 @@ export type FeatureItem = {
   code: string;
 };
 
-
 export const FeatureList: FeatureItem[] = [
   {
     title: "Typed Variables",
-    Svg: require("@site/static/img/undraw_typewriter_d4km.svg").default, 
+    Svg: require("@site/static/img/undraw_typewriter_d4km.svg").default,
     description: (
       <>
         Declare variables with explicit types like <code>int</code> and{" "}
@@ -86,4 +85,3 @@ call();`,
     code: `not found`,
   },
 ];
-
