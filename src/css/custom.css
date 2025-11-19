@@ -63,6 +63,10 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* .navbar__logo img { */
+/*   border-radius: 50%; */
+/* } */
+
 /* .footer { */
 /*   background-color: var( */
 /*     --ifm-footer-background-color-everblush-lighter */
