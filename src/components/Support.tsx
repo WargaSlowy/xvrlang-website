@@ -11,7 +11,7 @@ export default function Support() {
       <div className={shared.mid}>
         <div className={styles.supportCols}>
           <div>
-            <h2>Help &amp; Support</h2>
+            <h2 className={styles.title}>Help &amp; Support</h2>
             <p>
               Join our community on <strong>Discord</strong> — ask questions,
               share, help others.
