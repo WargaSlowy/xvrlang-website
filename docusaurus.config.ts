@@ -30,7 +30,7 @@ function headerNav(): object[] {
 const config: Config = {
   title: " Xvr – A Tiny Educational Interpreter",
   tagline: "Learn how interpreters work by writing and running simple code",
-  favicon: "img/xvr_logo_circle.png",
+  favicon: "img/favicon.ico",
   customFields: {
     discordServerID: "1229809804935954572",
   },
