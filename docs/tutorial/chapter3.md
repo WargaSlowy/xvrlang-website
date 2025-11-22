@@ -8,7 +8,7 @@ sidebar_position: 3
 
 now we make some fun with variable, variable are label which is can defining the some value, its like some box called "slowy shoes box" and the shoes are inside the box. variable defined with `var` keyword
 
-```
+```xvr
 // defining the variable
 var name = "arfy";
 

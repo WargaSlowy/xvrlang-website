@@ -8,7 +8,7 @@ sidebar_position: 4
 
 logical operator are describing that operator can be return `true` or `false` from two boolean values.
 
-```
+```xvr
 var first_value: bool = true;
 var second_value: bool = false;
 
@@ -27,7 +27,7 @@ print(!second_value);
 
 compare operator are describing that operator can be return `true` or `false` from two value by compare.
 
-```
+```xvr
 var this_number: int = 30;
 var other_number: int = 20;
 

@@ -8,7 +8,7 @@ sidebar_position: 8
 
 Yes, of course, `proc` can do it.
 
-```
+```xvr
 proc call() {
     print("hello");
     print("we can make some procedure");
@@ -20,7 +20,7 @@ call();
 
 We can use parameter, when we call it, we can use using some values.
 
-```
+```xvr
 proc call_name(name) {
     print("wello " + name);
 }
@@ -36,7 +36,7 @@ add_multiple(5, 3);
 
 You can assign that function as value on variable.
 
-```
+```xvr
 proc answer(value: int) {
     return value + 30;
 }
@@ -45,7 +45,7 @@ var number: int = answer(20);
 print(number);
 ```
 
-```
+```xvr
 proc answer(value: int): int {
     return value + 12;
 }
@@ -58,7 +58,7 @@ print(number);
 
 How about fibonacci ?
 
-```
+```xvr
 proc fibonacci(number: int) {
   if (number < 2) {
     return number;

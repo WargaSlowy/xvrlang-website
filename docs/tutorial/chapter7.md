@@ -8,7 +8,7 @@ sidebar_position: 7
 
 How can i make "jane doe you are funtastic" with 50 times?, should i create 50 statement of prints ?. Absolutely no, we can use looping.
 
-```
+```xvr
 for (var increment: int = 0; increment < 50; increment++) {
     print("jane doe you are funtastic");
 }
@@ -16,7 +16,7 @@ for (var increment: int = 0; increment < 50; increment++) {
 
 `increment` variable are incremental value that always change until statement `< 50` become `false`, so, the value will start from `0` -> `1` and ends with `49` because `0` are including.
 
-```
+```xvr
 var increment: int = 0;
 
 while (increment < 50) {
@@ -29,7 +29,7 @@ We can using `while` looping, its look more logically but its very different fro
 
 But, be carefully when you using `while` loops.
 
-```
+```xvr
 while (true) {
     print("looping infinity");
 }

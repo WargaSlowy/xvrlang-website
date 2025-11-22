@@ -8,7 +8,7 @@ sidebar_position: 5
 
 What if today was raining? maybe you using jacket or umbrella, but, what if today are sunny?, you maybe wearing short pants or using sunglasses. We can play it with conditional statement.
 
-```
+```xvr
 // let's we create some example
 var today_raining: bool = false;
 

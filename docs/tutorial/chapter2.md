@@ -8,8 +8,7 @@ sidebar_position: 2
 
 And now we playing with literals, literals are constant value which is defining that value and write to stdout.
 
-```literals.xvr
-
+```xvr
 // literal integers
 print 3;
 
