@@ -1,10 +1,9 @@
 ---
 sidebar_position: 1
+slug: /installation
 ---
 
-# Chapter 1
-
-## Installation
+# Installation
 
 Currently Xvr can be installation from release zip and manual installation or latest interpreter can be clone on github by
 

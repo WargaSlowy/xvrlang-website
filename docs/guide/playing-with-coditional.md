@@ -1,10 +1,9 @@
 ---
 sidebar_position: 5
+slug: /playing-with-coditional
 ---
 
-# Chapter 5
-
-## Playing with conditional
+# Playing with conditional
 
 What if today was raining? maybe you using jacket or umbrella, but, what if today are sunny?, you maybe wearing short pants or using sunglasses. We can play it with conditional statement.
 

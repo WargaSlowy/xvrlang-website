@@ -1,8 +1,10 @@
 ---
 sidebar_position: 9
+
+slug: /congratulation
 ---
 
-## Chapter 9
+# Congratulations
 
 Congratulations we Finish!. You are coding with XvrLang, so, you need deep dive about this lang?. You can check on [code](/docs/tutorial/chapter1), next we can adding more tutorial.
 

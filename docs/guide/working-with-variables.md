@@ -1,10 +1,9 @@
 ---
 sidebar_position: 3
+slug: /working-with-variables
 ---
 
-# Chapter 3
-
-## Working with variables
+# Working with variables
 
 now we make some fun with variable, variable are label which is can defining the some value, its like some box called "slowy shoes box" and the shoes are inside the box. variable defined with `var` keyword
 

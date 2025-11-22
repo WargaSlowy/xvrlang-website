@@ -1,10 +1,10 @@
 ---
 sidebar_position: 6
+
+slug: /are-you-good-at-math
 ---
 
-# Chapter 6
-
-## Are you good at math?
+# Are you good at math?
 
 Can we evaulate some question about 5 (C) + (C)(D)? when C = 1 / 5 and D = 15 , and yes of course.
 

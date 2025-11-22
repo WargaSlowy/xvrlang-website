@@ -1,10 +1,10 @@
 ---
 sidebar_position: 4
+id: What is logic operator ?
+slug: /what-is-logic-operator
 ---
 
-# Chapter 4
-
-## What is logic operator ?
+# What is logic operator ?
 
 logical operator are describing that operator can be return `true` or `false` from two boolean values.
 

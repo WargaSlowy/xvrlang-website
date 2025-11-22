@@ -1,10 +1,10 @@
 ---
 sidebar_position: 7
+
+slug: /lets-we-repeat-some-name
 ---
 
-# Chapter 7
-
-## Lets we repeat some name
+# Lets we repeat some name
 
 How can i make "jane doe you are funtastic" with 50 times?, should i create 50 statement of prints ?. Absolutely no, we can use looping.
 

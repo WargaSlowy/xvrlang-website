@@ -1,10 +1,10 @@
 ---
 sidebar_position: 8
+
+slug: /can-we-make-some-custom-statement
 ---
 
-# Chapter 8
-
-## Can we make some custom statement ?
+# Can we make some custom statement ?
 
 Yes, of course, `proc` can do it.
 

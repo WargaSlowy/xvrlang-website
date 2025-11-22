@@ -1,10 +1,9 @@
 ---
 sidebar_position: 2
+slug: /playing-with-literals
 ---
 
-# Chapter 2
-
-## Playing With Literals
+# Playing With Literals
 
 And now we playing with literals, literals are constant value which is defining that value and write to stdout.
 
