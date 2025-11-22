@@ -6,6 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 function headerNav(): object[] {
   let naviItems = [
+    { to: "/downloads", label: "Downloads", position: "left" },
     {
       type: "docSidebar",
       sidebarId: "tutorialSidebar",
@@ -110,7 +111,7 @@ const config: Config = {
       isCloseable: true,
     },
     navbar: {
-      title: "Xvr Lang",
+      title: "XvrLang",
       logo: {
         alt: "Xvr Lang Logo",
         src: "img/xvr_logo_circle.png",
