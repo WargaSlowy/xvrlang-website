@@ -1,4 +1,3 @@
-/* Container halaman */
 .container {
   display: flex;
   flex-direction: column;
@@ -9,7 +8,6 @@
   animation: fadeIn 1s ease-in;
 }
 
-/* Icon download berputar */
 .icon {
   font-size: 4rem;
   color: #4caf50;
@@ -17,7 +15,6 @@
   animation: spin 2s linear infinite;
 }
 
-/* Judul utama */
 .title {
   font-size: 3rem;
   font-weight: bold;
@@ -25,14 +22,12 @@
   color: #1a1a1a;
 }
 
-/* Teks Coming Soon dengan titik animasi */
 .comingSoon {
   font-size: 1.5rem;
   color: #555;
   font-style: italic;
 }
 
-/* Fade-in untuk container */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -44,7 +39,6 @@
   }
 }
 
-/* Animasi spin untuk icon download */
 @keyframes spin {
   from {
     transform: rotate(0deg);
