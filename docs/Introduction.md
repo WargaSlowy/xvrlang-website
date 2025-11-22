@@ -5,6 +5,6 @@ slug: /introduction
 
 # Introduction
 
-## Xvr pantun
+## Xvr moto
 
 gajah + kuning kalo digabung ringkih, dah gitu aj
