@@ -14,8 +14,7 @@ export const FeatureList: FeatureItem[] = [
     description: (
       <>
         Declare variables with explicit types like <code>int</code> and{" "}
-        <code>string</code>
-        for safer and clearer code.
+        <code>string</code> for safer and clearer code.
       </>
     ),
     code: `// defining the variable
@@ -82,6 +81,6 @@ call();`,
         it—great for learning how interpreters and virtual machines work.
       </>
     ),
-    code: `not found`,
+    code: `still in confusion`,
   },
 ];
