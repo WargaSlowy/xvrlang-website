@@ -1,5 +1,6 @@
 .bannerSection {
-  background-color: var(--ifm-background-color-everblush-lighter);
+  /* background-color: var(--ifm-background-color-everblush-lighter); */
+  background-color: transparent;
   padding: 1rem 0 4rem;
   text-align: center;
 }

@@ -3,6 +3,17 @@
  * and scoped locally.
  */
 
+.header {
+  /* background-color: var(--ifm-background-color-everblush-lighter); */
+  background-image: url("/img/logo_kebangsaan_warga_slowy.svg");
+  background-size: cover; /* biar full */
+  background-position: center; /* posisi tengah */
+  background-repeat: no-repeat; /* biar tidak berulang */
+
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
 .heroBanner {
   padding: 1.5rem 0 4rem;
   text-align: center;
@@ -32,4 +43,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.codeBanner {
+  margin-top: 10px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .codeBanner {
+    display: none;
+  }
+  .header {
+    /* background-color: var(--ifm-background-color-everblush-lighter); */
+    padding-bottom: 60px;
+    padding-top: 20px;
+  }
 }

@@ -4,13 +4,14 @@
   position: relative;
   overflow: hidden;
 
-  background-color: var(--ifm-background-color-everblush-lighter);
+  /* background-color: var(--ifm-background-color-everblush-lighter); */
   /* background-color: rgba(20, 27, 30, 0.8); /* 0.8 = agak transparan */
-  color: black;
-}
-[data-theme="dark"] .heroBanner {
+  background: transparent;
   color: white;
 }
+/* [data-theme="dark"] .heroBanner { */
+/*   color: white; */
+/* } */
 
 @media screen and (max-width: 996px) {
   .heroBanner {

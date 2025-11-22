@@ -20,8 +20,12 @@ export default function Home(): ReactNode {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <HomepageHeader />
-      <CodeBannerSection />
+      <div className={styles.header}>
+        <HomepageHeader />
+        <div className={styles.codeBanner}>
+          <CodeBannerSection />
+        </div>
+      </div>
       <main>
         <HomepageFeatures />
       </main>

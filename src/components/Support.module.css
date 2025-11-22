@@ -1,3 +1,7 @@
+.section {
+  background-color: var(--ifm-background-color-everblush-lighter);
+}
+
 .supportCols {
   display: flex;
   align-items: center;

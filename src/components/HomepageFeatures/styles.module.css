@@ -7,11 +7,11 @@
 }
 
 .featureLeft {
-  background-color: var(--ifm-background-color-everblush);
+  background-color: var(--ifm-background-color-everblush-lighter);
 }
 
 .featureRight {
-  background-color: var(--ifm-background-color-everblush-lighter);
+  background-color: var(--ifm-background-color-everblush);
 }
 
 .featureItem {

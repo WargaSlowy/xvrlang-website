@@ -7,7 +7,7 @@ export default function Support() {
   const { siteConfig } = useDocusaurusContext();
   const discordId = siteConfig.customFields.discordServerID;
   return (
-    <section data-stripe>
+    <section data-stripe className={styles.section}>
       <div className={shared.mid}>
         <div className={styles.supportCols}>
           <div>
