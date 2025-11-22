@@ -5,7 +5,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function Support() {
   const { siteConfig } = useDocusaurusContext();
-  const discordId = siteConfig.customFields.discordServerId;
+  const discordId = siteConfig.customFields.discordServerID;
   return (
     <section data-stripe>
       <div className={shared.mid}>
