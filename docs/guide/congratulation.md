@@ -6,7 +6,7 @@ slug: /congratulation
 
 # Congratulations
 
-Congratulations we Finish!. You are coding with XvrLang, so, you need deep dive about this lang?. You can check on [code](/docs/tutorial/chapter1), next we can adding more tutorial.
+Congratulations we Finish!. You are coding with XvrLang, so, you need deep dive about this lang?. You can check on [code](/docs/introduction), next we can adding more tutorial.
 
 ## Explore more about XvrLang
 

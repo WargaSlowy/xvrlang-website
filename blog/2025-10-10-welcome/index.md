@@ -14,7 +14,7 @@ tags: [lang]
 - intermediate bytecode interpretation
 
 > [!NOTE]
-> For more information about project you can check the [docs](/docs/category/tutorial) for documentation about xvr, and you can check the sample code from [code](/docs/category/tutorial) directory
+> For more information about project you can check the [docs](/docs/installation) for documentation about xvr, and you can check the sample code from [code](/docs/installation) directory
 
 ## Build Instruction
 
@@ -83,4 +83,4 @@ for (var i: int = 0; i < 30; i++) {
 
 ## Need Tutorial?
 
-You can check on [tutorial](/docs/category/tutorial) for explore some tutorials.
+You can check on [tutorial](/docs/installation) for explore some tutorials.
