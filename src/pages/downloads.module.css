@@ -1,0 +1,55 @@
+/* Container halaman */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Icon download berputar */
+.icon {
+  font-size: 4rem;
+  color: #4caf50;
+  margin-bottom: 1rem;
+  animation: spin 2s linear infinite;
+}
+
+/* Judul utama */
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+/* Teks Coming Soon dengan titik animasi */
+.comingSoon {
+  font-size: 1.5rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Fade-in untuk container */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animasi spin untuk icon download */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
