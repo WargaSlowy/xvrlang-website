@@ -88,3 +88,35 @@
 /* [data-theme="dark"] .footer__title { */
 /*   color: white; */
 /* } */
+
+/* Override keyword (proc, var, if, dll) → KUNING */
+code[class*="language-xvr"] .token.keyword,
+pre[class*="language-xvr"] .token.keyword {
+  color: #e5c76b !important; /* kuning terang */
+  font-style: normal;
+}
+
+code[class*="language-xvr"] .token.function,
+pre[class*="language-xvr"] .token.function {
+  color: #e57474 !important;
+  font-style: normal;
+}
+
+/* // magenta #c47fd5 */
+code[class*="language-xvr"] .token.type,
+pre[class*="language-xvr"] .token.type {
+  color: #c47fd5 !important;
+  font-style: normal;
+}
+
+code[class*="language-xvr"] .token.string,
+pre[class*="language-xvr"] .token.string {
+  color: #8ccf7e !important;
+  font-style: normal;
+}
+
+code[class*="language-xvr"] .token.builtin,
+pre[class*="language-xvr"] .token.builtin {
+  color: #dddddd !important; /* pink soft */
+  font-style: normal;
+}
